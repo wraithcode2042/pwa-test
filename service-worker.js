@@ -1,13 +1,13 @@
 self.addEventListener('install', function(event) {
     event.waitUntil(
-        caches.open('eaglercraft-cache-v1').then(function(cache) {
+        caches.open('resent-app-cache-v1').then(function(cache) {
             return cache.addAll([
                 '/',
-                '/eaglercraft/index.html',
-                '/eaglercraft/styles.css',
-                '/eaglercraft/script.js',
-                '/eaglercraft/icon-192x192.png',
-                '/eaglercraft/icon-512x512.png'
+                '/resent-app/index.html',
+                '/resent-app/styles.css',
+                '/resent-app/script.js',
+                '/resent-app/rc192.png',
+                '/resent-app/rc512.png'
             ]);
         })
     );
