@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/eaglercraft/service-worker.js')
+    navigator.serviceWorker.register('/resent-app/service-worker.js')
     .then(function(registration) {
         console.log('Service Worker registered with scope:', registration.scope);
     })
