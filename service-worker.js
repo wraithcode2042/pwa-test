@@ -3,9 +3,6 @@ self.addEventListener('install', function(event) {
         caches.open('resent-app-cache-v1').then(function(cache) {
             return cache.addAll([
                 '/',
-                '/resent-app/index.html',
-                '/resent-app/styles.css',
-                '/resent-app/script.js',
                 '/resent-app/rc192.png',
                 '/resent-app/rc512.png'
             ]);
