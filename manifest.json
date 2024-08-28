@@ -2,7 +2,7 @@
   "name": "PWA Test",
   "short_name": "PWATEST",
   "start_url": "/eagler/resent40/",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#000000",
   "theme_color": "#101010",
   "description": "A simple PWA example.",
