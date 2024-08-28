@@ -1,10 +1,10 @@
 {
   "name": "PWA Test",
   "short_name": "PWATEST",
-  "start_url": "/eaglercraft/",
+  "start_url": "/eagler/resent40/",
   "display": "standalone",
-  "background_color": "#282c34",
-  "theme_color": "#61dafb",
+  "background_color": "#000000",
+  "theme_color": "#101010",
   "description": "A simple PWA example.",
   "icons": [
     {
