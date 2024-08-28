@@ -1,19 +1,19 @@
 {
-  "name": "PWA Test",
-  "short_name": "PWATEST",
+  "name": "Resent 4.0",
+  "short_name": "Resent",
   "start_url": "/eagler/resent40/",
   "display": "fullscreen",
   "background_color": "#000000",
   "theme_color": "#101010",
-  "description": "A simple PWA example.",
+  "description": "Eaglercraft Resent Client 4.0",
   "icons": [
     {
-      "src": "icon-192x192.png",
+      "src": "rc192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icon-512x512.png",
+      "src": "rc512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
